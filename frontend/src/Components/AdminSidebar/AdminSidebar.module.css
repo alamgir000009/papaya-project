@@ -1,0 +1,38 @@
+.sidebar {
+    transition: width 0.3s ease-in-out;
+}
+
+.sidebarLinks {
+    text-decoration: none;
+    color: rgb(255, 255, 255, 0.7);
+    font-family: var(--font-montserrat);
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20.8px; /* 86.667% */
+    text-transform: capitalize;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+.sidebarLinks:hover {
+    color: rgb(255, 255, 255);
+}
+
+.sidebarLinks:hover {
+    background-color: rgb(255 255 255 / 0.05);
+    color: rgb(255, 255, 255);
+}
+
+.active {
+    background: rgba(226, 153, 190, 0.12);
+    color: white !important;
+}
+.active a {
+    color: white !important;
+}
+
+@media screen and (maxwidth: 768px) {
+    .sidebar {
+    }
+}

@@ -1,0 +1,55 @@
+.custom_input {
+ border-radius: 9999px;  
+ border: 3px solid #466547;
+ width: 100%;
+ padding: 10px 10px;
+ background-color: transparent;
+}
+.custom_input::placeholder {
+    font-size: 14px; /* Match the input font size or adjust as needed */
+    color: #999; /* Placeholder color */
+    opacity: 1; /* Ensure visibility */
+}
+.custom_input:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+.custom_dark_input {
+    background-color: var(--dark-gray-theme-color) !important;
+    color: var(--primary-gray);
+    border: 1px solid rgb(92, 90, 90) !important;
+}
+.custom_input_disable {
+    color: rgb(75, 85, 99) !important;
+    background-color: rgb(211, 219, 231) !important;
+}
+.custom_dark_input_disable {
+    color: rgb(123, 134, 150) !important;
+    border: 1px solid rgb(107 114 128) !important;
+    background-color: rgb(181, 187, 197) !important;
+}
+.customXLInput {
+    background: transparent;
+    color: rgba(11, 28, 42);
+    text-align: center;
+    font-family: var(--font-Inter);
+    font-size: 25.688px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border: 1.427px solid var(--Color, #0e2232);
+}
+.customXLInput::placeholder {
+    color: rgba(11, 28, 42, 0.37);
+    opacity: 1;
+}
+
+@media screen and (max-width: 768px) {
+    .customXLInput {
+        font-size: 18.688px;
+    }
+    .customXLInput::placeholder,
+    .custom_input::placeholder {
+        font-size: 16px;
+    }
+}
