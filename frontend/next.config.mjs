@@ -2,7 +2,7 @@
 const nextConfig = {
   reactStrictMode: true, // Enables React's strict mode
   images: {
-    domains: ["127.0.0.1"], // Add the hostname(s) for your external images
+    domains: ["127.0.0.1","papayacomms.com"], // Add the hostname(s) for your external images
   },
 };
 
