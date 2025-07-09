@@ -72,7 +72,7 @@ const Footer = () => {
   ];
   return (
     <div
-      className="bg-gradient-to-l from-[#18361a] to-[#325336] rounded-t-[23px] md:px-[52px] md:pt-[23px] px-5 pt-4 relative"
+      className="bg-gradient-to-l from-[#18361a] to-[#325336] rounded-t-[23px] md:px-[52px] md:pt-[23px] px-5 pt-4"
       id="contact"
     >
       <div
