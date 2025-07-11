@@ -48,6 +48,11 @@ const Footer = () => {
       section.scrollIntoView({ behavior: "smooth" });
     }
   };
+
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
+
   const footerLinks = [
     {
       label: "Home",
@@ -213,16 +218,22 @@ const Footer = () => {
             Privacy Policy
           </Link>
           <a
-            href="mailto:hello@papayacomms.com"
+            href="mailto:support@papayacomms.com"
             className="text-[15px] font-[300]"
           >
-            hello@papayacomms.com
+            support@papayacomms.com
           </a>
         </div>
         <div className="text-[#fefefe] text-[10.50px] font-light font-gilmer leading-[11.02px] py-[30px] text-center">
           All rights reserved - Papaya Comms - 2025
         </div>
       </div>
+      <button
+        onClick={scrollToTop}
+        className="fixed bottom-5 right-5 text-[15px] font-bold bg-primary text-secondary px-3 py-2 rounded-md hover:bg-gray-200 transition-colors shadow-lg z-50"
+      >
+        Back to Top
+      </button>
     </div>
   );
 };
