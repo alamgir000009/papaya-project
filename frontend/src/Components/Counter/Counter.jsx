@@ -109,7 +109,7 @@ const Counter = () => {
         >
           <div className="flex items-end gap-4">
             <div className="smd:text-[76px] text-[60px] smd:leading-[95px] font-semibold">
-              {counter200}+
+              {counter200}M+
             </div>
             <div className=" text-[27px] font-semibold  leading-[66.42px]">
               SAR
